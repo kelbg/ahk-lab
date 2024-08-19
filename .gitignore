@@ -1,0 +1,10 @@
+.vscode/*
+compiled/*
+old/*
+
+AHKScriptManager.ini
+AltTabVolume.ini
+BNGDrive_ResSwitcher.ini
+CounterGui.ini
+mtga_accs.ini
+SimpleSpellAutocast.ini
