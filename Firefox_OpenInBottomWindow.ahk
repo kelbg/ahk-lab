@@ -33,7 +33,7 @@ GetCurrentTabURL()
 	Loop(maxTries)
 	{
 		Send "^l"
-		Sleep(25)
+		Sleep(50)
 		Send "^c"
 		ClipWait(0.1)
 
@@ -54,7 +54,7 @@ SwitchToBottomWindow()
 OpenURLInNewTab()
 {
 	Send "^t" ; Opens a new tab
-	Sleep(25)
+	Sleep(50)
 	Send "^v" ; Pastes the URL from the clipboard
 	Send "{Enter}"
 }
